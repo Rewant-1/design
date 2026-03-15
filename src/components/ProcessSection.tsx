@@ -22,7 +22,7 @@ const steps = [
 
 export default function ProcessSection() {
   return (
-    <section className="py-24 border-t border-black/10 dark:border-white/10 transition-colors duration-300">
+    <section className="py-24 transition-colors duration-300">
       <div className="layout-container max-w-5xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tighter">
