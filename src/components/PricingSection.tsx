@@ -44,11 +44,19 @@ export default function PricingSection() {
               </li>
             </ul>
 
-            <button className="group relative w-full bg-black text-white dark:bg-white dark:text-black py-4 font-bold transition-all duration-300 overflow-hidden">
-              <span className="relative z-10 flex items-center justify-center">
+            <button className="relative w-full py-4 bg-black text-white dark:bg-white dark:text-black font-semibold text-[13px] tracking-wide flex items-center justify-center group overflow-hidden">
+              <span className="relative z-10 flex items-center group-hover:text-black dark:group-hover:text-white transition-colors duration-300">
                 begin free
+                <motion.span
+                  className="ml-2 font-normal"
+                  initial={{ x: 0 }}
+                  whileHover={{ x: 3 }}
+                  transition={{ ease: "easeOut", duration: 0.2 }}
+                >
+                  →
+                </motion.span>
               </span>
-              <div className="absolute inset-0 bg-white/20 dark:bg-black/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
+              <div className="absolute inset-0 bg-white dark:bg-black translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300 ease-out z-0 border border-black dark:border-white" />
             </button>
           </div>
 

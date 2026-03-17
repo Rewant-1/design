@@ -21,12 +21,7 @@ export default function Home() {
       
       {/* Visual Divider / Our Extra Components */}
       <div className="w-full">
-        <ProcessSection />
-        <FeatureGrid />
-        <TestimonialSection />
         <PricingSection />
-        <FAQSection />
-        <CallToAction />
       </div>
       
       {/* Simple Footer */}
